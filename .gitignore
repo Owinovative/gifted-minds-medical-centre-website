@@ -1,0 +1,36 @@
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+.aws/
+
+# Tooling state and dependencies
+.agents/
+.codex/
+node_modules/
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+
+# The hospital profile is a source document, not a public site asset
+pictures/*.docx
+pictures/.~lock*
+
+# Generated local QA output
+screenshots/
+
+# Private hospital source documents
+*.docx
+*.doc
+*.pdf
+
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Local development
+.vercel/
+node_modules/
+.DS_Store
