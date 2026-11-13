@@ -29,7 +29,7 @@ Open `http://127.0.0.1:4173`. If that port is already in use, choose another ava
 - `styles.css` contains design tokens, shared components and responsive layouts.
 - `script.js` handles the accessible mobile navigation and dynamic copyright year.
 - `assets/hospital-logo.png` is a proportion-preserving, optimized derivative of the supplied official `pictures/Hospital Logo.png`; it appears in the shared navigation and footer. `assets/favicon.png` is a square favicon derivative on white. The source logo remains unchanged.
-- `assets/images/` contains the selected photographs as optimized WebP assets; the originals remain in `pictures/` as private source material. See [ASSET-INVENTORY.md](ASSET-INVENTORY.md) for image selection notes.
+- `assets/images/` contains the selected photographs as optimized WebP assets; original photographs remain locally in the ignored `pictures/` directory. See [ASSET-INVENTORY.md](ASSET-INVENTORY.md) for image selection notes.
 - `pictures/Gifted minds hospital profile.docx` is the private source document. It is excluded from Git and is not linked from the website.
 - `DESIGN-RESEARCH.md` documents the healthcare website research and the resulting design direction.
 

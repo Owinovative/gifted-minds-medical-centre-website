@@ -1,3 +1,9 @@
 **/*.docx
 **/*.doc
 .env*
+pictures/
+scripts/
+*.md
+.git/
+.gitignore
+.vercelignore
